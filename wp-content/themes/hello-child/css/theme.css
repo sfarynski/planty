@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
+/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
+header{
+    background-color: white;
+}
+
+.site-header{
+
+    padding: 0;
+}
+header .header-inner{
+    height: 5rem;
+    margin-top: 0rem;
+}
+
+header .header-inner ul li a{
+    height: 5rem;
+    font-size: 1.3rem;
+}
+
+body{
+   font-family: 'Syne', sans-serif;
+   background-color: #ECE2DA ;
+}
+/* On applique un gris plus clair sur les paragraphes */
+p {
+   color: #313332;
+}
+
+#menu-item-20 a,#menu-item-21 a, #menu-item-22 a {
+    padding: 1.5rem 2rem;
+}
+
+#menu-item-20 {
+    background-color: #DC9F96;
+}
+
+#menu-item-20 a {
+    color: white;
+    padding: 1.5rem 4rem;
+}
+
+#menu-item-20 a:hover {
+    color: grey;
+}
+
+#titre-boison-planty{
+    text-transform: uppercase;
+}
+
+.flower-can-flower{
+    position: relative;
+}
+body.wpforms-field-container{
+    width: 500px;
+}
+
+.wpforms-field-container .wpforms-field .wpforms-field-label{
+    color: black;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wpforms-field-container .wpforms-field #wpforms-228-field_0, #wpforms-228-field_1{
+    height: 71px;
+    width: 383px;
+}
+
+body div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium{
+    height: 237px;
+}
+
+.wpforms-submit-container{
+    text-align: center;
+}
+
+body div.wpforms-container-full button[type="submit"], body div.wpforms-container-full button[type="submit"]:not(:hover):not(:active){
+    border-radius: 5px;
+    background: #E0B9B4;
+    width: 198px;
+    height: 55px;
+    color: white;
+    text-align: center;
+    font-family: Syne;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+div.wpforms-container-full input[type="submit"]:not(:hover):not(:active), div.wpforms-container-full button[type="submit"]:not(:hover):not(:active){
+    background-color: blue;
+}
+
+body #wpforms-193 .wpforms-head-container .wpforms-title{
+    color: black;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+body #wpforms-193 .wpforms-field-container .wpforms-field > .wpforms-field-label{
+    color: white;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body #wpforms-193 .wpforms-field-container .wpforms-field > .wpforms-field-large{
+    width: 393px;
+    height: 71px;
+}
+
+.wpforms-field.wpforms-field-name.wpforms-one-half.wpforms-first, .wpforms-field.wpforms-field-email.wpforms-one-half.wpforms-first{
+    border-right: solid 1px white;
+    padding-right: 30px;
+}
+
+.wpforms-field.wpforms-field-name.wpforms-one-half, .wpforms-field.wpforms-field-email.wpforms-one-half{
+    padding-left: 20px;
+}
+
+.inputOrder{
+    width: 50px;
+}
