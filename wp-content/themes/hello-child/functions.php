@@ -12,6 +12,7 @@ function theme_enqueue_styles(){
 
 // Different menus to logged in users
 function md_nav_menu_args( $args = '' ) {
+    
     if( is_user_logged_in() ) {
     // Menu for logged users
     $args['menu'] = 'loggedMenu';
@@ -20,7 +21,11 @@ function md_nav_menu_args( $args = '' ) {
     // Menu for non-logged users
     $args['menu'] = 'notLoggedMenu';
     }
+    if ( $args['theme_location'] == 'menu-2'){
+        $args['menu'] = 'footerMenu';
+    }
     return $args;
+    
     }
 add_filter( 'wp_nav_menu_args', 'md_nav_menu_args' );
 ?>
