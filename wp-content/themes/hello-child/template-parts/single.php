@@ -17,7 +17,7 @@ while ( have_posts() ) :
 
 	<?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
 		<header class="page-header">
-			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+			<?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		</header>
 	<?php endif; ?>
 
