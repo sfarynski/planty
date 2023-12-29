@@ -26,23 +26,25 @@ body{
 p {
    color: #313332;
 }
+a {
+    color: #313332;
+ }
 
-#menu-item-20 a,#menu-item-21 a, #menu-item-22 a {
-    padding: 1.5rem 2rem;
+
+#site-header .header-inner nav ul li{
+    padding: 1rem 3rem;
 }
-
-#menu-item-20 {
+#site-header .header-inner nav ul li:nth-last-child(1){
     background-color: #DC9F96;
 }
 
-#menu-item-20 a {
+#site-header .header-inner nav ul li:nth-last-child(1) a{
     color: white;
-    padding: 1.5rem 4rem;
+}
+#site-header .header-inner .site-branding{
+    height: 80px;
 }
 
-#menu-item-20 a:hover {
-    color: grey;
-}
 
 #titre-boison-planty{
     text-transform: uppercase;
