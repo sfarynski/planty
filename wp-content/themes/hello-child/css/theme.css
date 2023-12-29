@@ -131,11 +131,6 @@ body #wpforms-193 .wpforms-field-container .wpforms-field > .wpforms-field-large
     padding-left: 20px;
 }
 
-.inputOrder{
-    size: 50px;
-}
-
-
 /* Chrome, Safari, Edge, Opera */
 body input::-webkit-outer-spin-button,
 body input::-webkit-inner-spin-button {
