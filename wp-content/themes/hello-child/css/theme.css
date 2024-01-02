@@ -16,6 +16,11 @@ header .header-inner{
 header .header-inner ul li a{
     height: 5rem;
     font-size: 1.3rem;
+    color: black;
+}
+
+footer .footer-inner ul li a{
+    color: black;
 }
 
 body{
@@ -139,8 +144,34 @@ body input::-webkit-inner-spin-button {
   width: 50px;
 }
 
+.informations-mobile{
+    display:none;
+}
 /* Firefox */
 body input[type=number] {
     -moz-appearance: textfield;
     width: 50px;
+  }
+
+  @media only screen and (max-width: 560px) {
+    body #wpforms-form-193{
+        display: none;
+    }
+.informations-mobile, #wpforms-543{
+        display:flex;
+        margin-top: -50px;
+}
+body #wpforms-543 .wpforms-field-container .wpforms-field > .wpforms-field-label{
+    color: white;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body #wpforms-543 .wpforms-field-container .wpforms-field > .wpforms-field-large{
+    width: 393px;
+    height: 71px;
+}
   }
