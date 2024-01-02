@@ -160,6 +160,7 @@ body input[type=number] {
 .informations-mobile, #wpforms-543{
         display:flex;
         margin-top: -50px;
+        margin-left: -50px;
 }
 body #wpforms-543 .wpforms-field-container .wpforms-field > .wpforms-field-label{
     color: white;
@@ -171,7 +172,7 @@ body #wpforms-543 .wpforms-field-container .wpforms-field > .wpforms-field-label
 }
 
 body #wpforms-543 .wpforms-field-container .wpforms-field > .wpforms-field-large{
-    width: 393px;
+    width: 280px;
     height: 71px;
 }
   }
